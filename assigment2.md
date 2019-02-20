@@ -237,3 +237,32 @@ answer_one()
 
 
     'United States'
+
+
+### Question 2
+Which country had the biggest difference between their summer and winter gold medal counts?
+
+*This function should return a single string value.*
+
+
+```python
+# Second Answer ######################################################################################
+# Building using a FullSpeed HtDF Recipe style - Learned from the discipline How To Code Simple Data,
+# belonged from the MicroMaster Software Developer created by University of British Columbia and offer
+# on Edx plataform.
+# Call Function: def answer_two; return; than call df for max gold medals on summer winter gold medals
+# than calculate the difference between this medals;
+# Prototype: def answer_two; summer df['Gold'] - winter df['Gold.1']; difference = summer - winter
+# Pandas argmax: Index of first occurrence of maximum of values.
+# Prototype finished: return (df['Gold]  - df['Gold.1]).argmax()
+
+def answer_two():
+    return (df['Gold'] - df['Gold.1']).argmax()
+answer_two()
+
+```
+
+
+
+
+    'United States'
