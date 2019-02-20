@@ -3,7 +3,7 @@
 
 Todas as questões são ponderadas da mesma forma para a presente tarefa. Para responder estas questões utilizou-se o Jupyter
 Notebook integrando Python e Pandas.
-
+<hr>
 All questions are weighted the same in this assignment. To answer this questions, was used Jupyter Notebok to integrate Python
 and Pandas.
 
@@ -12,7 +12,7 @@ and Pandas.
 O código abaixo carrega o *Olympics dataset (olympic.csv)*, que foi extraído do Wikipedia no seguinte caminho [All Time Olympic Games Medals](https://en.wikipedia.org/wiki/All-time_Olympic_Games_medal_table), e realiza tratamento básico de dados.
 
 As colunnas são organizadas como # of Sumer games, Summer medals, # of Winter games, Winter medals, total # number of games, total # of medals. Utilize estas par/ãmetros para responder as questões abaixo. 
-
+<hr>
 The following code loads the olympics dataset (olympics.csv), which was derrived from the Wikipedia entry on [All Time Olympic Games Medals](https://en.wikipedia.org/wiki/All-time_Olympic_Games_medal_table), and does some basic data cleaning. 
 
 The columns are organized as # of Summer games, Summer medals, # of Winter games, Winter medals, total # number of games, total # of medals. Use this dataset to answer the questions below.
