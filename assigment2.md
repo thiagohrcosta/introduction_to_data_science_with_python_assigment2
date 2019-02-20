@@ -219,8 +219,9 @@ Which country has won the most gold medals in summer games?
 
 ```python
 # First Answer #############################################################################################
-# Building using a FullSpeed HtDF Recipe style - Learned from the discipline How To Code Simple Data, belonged from the
-# MicroMaster Software Developer created by University of British Columbia and offer on Edx plataform.
+# Building using a FullSpeed HtDF Recipe style - Learned from the discipline How To Code Simple Data,
+# belonged from the MicroMaster Software Developer created by University of British Columbia and offer
+# on Edx plataform.
 # Call Function: def answer_one; than call the 'df' set to gold medals ; return;
 # Prototype: return(df['Gold'])  than apply the Pandas function to get the first occurrence of max value;
 # PANDAS = argmax: Index of first occurrence of maximum of values;
