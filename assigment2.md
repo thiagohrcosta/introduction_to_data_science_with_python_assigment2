@@ -219,9 +219,9 @@ Which country has won the most gold medals in summer games?
 
 ```python
 # First Answer #############################################################################################
-# Building using a FullSpeed HtDF Recipe style - Learned from the discipline How To Code Simple Data,
-# belonged from the MicroMaster Software Developer created by University of British Columbia and offer
-# on Edx plataform.
+# Building using a FullSpeed HtDF Recipe style - Learned from the discipline **How To Code Simple Data**,
+# belonged from the MicroMaster Software Developer created by **University of British Columbia** and offer
+# on **Edx plataform**.
 # Call Function: def answer_one; than call the 'df' set to gold medals ; return;
 # Prototype: return(df['Gold'])  than apply the Pandas function to get the first occurrence of max value;
 # PANDAS = argmax: Index of first occurrence of maximum of values;
@@ -247,9 +247,9 @@ Which country had the biggest difference between their summer and winter gold me
 
 ```python
 # Second Answer ######################################################################################
-# Building using a FullSpeed HtDF Recipe style - Learned from the discipline How To Code Simple Data,
-# belonged from the MicroMaster Software Developer created by University of British Columbia and offer
-# on Edx plataform.
+# Building using a FullSpeed HtDF Recipe style - Learned from the discipline **How To Code Simple Data**,
+# belonged from the MicroMaster Software Developer created by **University of British Columbia** and offer
+# on **Edx plataform**.
 # Call Function: def answer_two; return; than call df for max gold medals on summer winter gold medals
 # than calculate the difference between this medals;
 # Prototype: def answer_two; summer df['Gold'] - winter df['Gold.1']; difference = summer - winter
@@ -266,3 +266,39 @@ answer_two()
 
 
     'United States'
+    
+    ### Question 3
+Which country has the biggest difference between their summer gold medal counts and winter gold medal counts relative to their total gold medal count? 
+
+$$\frac{Summer~Gold - Winter~Gold}{Total~Gold}$$
+
+Only include countries that have won at least 1 gold in both summer and winter.
+
+*This function should return a single string value.*
+
+
+```python
+# Third Answer ######################################################################################
+# Building using a FullSpeed HtDF Recipe style - Learned from the discipline **How To Code Simple Data**,
+# belonged from the MicroMaster Software Developer created by **University of British Columbia** and offer
+# on **Edx plataform**.
+# I used PEP8 style to format the code to a easier way to read - The Pep8 Style was teach on course
+# **FullStack Web Developer** offer by **Udacity**.
+# Call Function: def answer_three; return; named goldMedals and call df[(df['Gold.1']) & (df['Gold])]
+# The question ask for country who has 1 or more, so need to add ''>0'' or ">=1" in the function
+# Prototype: Function with 1 or more:  df[(df['Gold.1]>=1 & (df['Gold])>=1)]
+# Then calculate the difference between Gold - Gold.1 / TotalMedals
+# Pandas ABS = Return a Series/DataFrame with absolute numeric value of each element.
+# Prototype: goldMedals['biggestDifference'] = (abs(goldMedals['Gold] - goldMedals['Gold.1]))/goldMedals['Gold.2']
+# Pandas argmax: Index of first occurrence of maximum of values.
+# Finally, the return result with .argmax:  goldMedals['biggestDifference'].argmax()
+
+def answer_three():
+    goldMedals = df[(df['Gold.1'] >= 1) & (df['Gold'] >=1)]
+    goldMedals['biggestDifference'] = (abs(goldMedals['Gold'] - 
+                                           goldMedals['Gold.1'])) / goldMedals['Gold.2']
+    return goldMedals['biggestDifference'].argmax()
+
+answer_three()
+
+```
