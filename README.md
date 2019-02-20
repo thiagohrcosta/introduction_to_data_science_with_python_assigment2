@@ -14,8 +14,8 @@ The code presented here is the result of the connection of several areas of know
 
 Para realizar a tarefa nº2 do curso foi utilizado o Jupyter Notebook por meio do Anaconda Navigator. É possível também utilizar o próprio Jupyter Notebook disponibilizado pela **Universidade de Michigan** dentro de sua plataforma no **Coursera**. 
 
-<ul>**Aplicações utilizadas**
+<ul>Aplicações utilizadas
   
-  <li>*Python*</li>
-  <li>*Pandas*</li>
+  <li>Python</li>
+  <li>Pandas</li>
 </ul>
