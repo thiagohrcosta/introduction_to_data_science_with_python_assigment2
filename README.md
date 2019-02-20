@@ -18,7 +18,7 @@ Para realizar a tarefa nº2 do curso foi utilizado o Jupyter Notebook por meio d
 
 <hr> 
 
-To perform task # 2 of the course the Jupyter Notebook was used through the Anaconda Navigator. You can also use the Jupyter Notebook itself provided by the ** University of Michigan ** within its platform at ** Coursera **.
+To perform task # 2 of the course the Jupyter Notebook was used through the Anaconda Navigator. You can also use the Jupyter Notebook itself provided by the ** University of Michigan ** within its platform at **Coursera**.
 
 <ul>Aplicações utilizadas (Resources used):
   <br>
