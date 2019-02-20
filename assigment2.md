@@ -209,4 +209,27 @@ answer_zero()
     ID                AFG
     Name: Afghanistan, dtype: object
 
+### Question 1
+Which country has won the most gold medals in summer games?
 
+*This function should return a single string value.*
+
+
+```python
+# First Answer #############################################################################################
+# Building using a FullSpeed HtDF Recipe style
+# Call Function: def answer_one; than call the 'df' set to gold medals ; return;
+# Prototype: return(df['Gold'])  than apply the Pandas function to get the first occurrence of max value;
+# PANDAS = argmax: Index of first occurrence of maximum of values;
+# Prototype finished: return(df['Gold].argmax()
+# Expected out result: 'Single String value'.
+
+def answer_one():
+    return (df['Gold'].argmax())
+answer_one()
+```
+
+
+
+
+    'United States'
