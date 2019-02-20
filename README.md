@@ -8,7 +8,7 @@ O código aqui apresentado é fruto da conexão de diversas áreas de conhecimen
 *Assigment accomplished as conclusion of module two from discipline **Introduction to Data Science With Python**, that integrate the 
 course **Applied Data Science with Python** from University of Michigan. This apllied course is disponibilizied from the **Coursera**.*
 
-The code presented here is the result of the connection of several areas of knowledge and study, serving as a portfolio formation and should not be used by any students of the course as a resource for plagiarism, an act expressly forbidden by ** Coursera ** and subject to the exclusion of account of that student who will eventually commit plagiarism in their responses.
+The code presented here is the result of the connection of several areas of knowledge and study, serving as a portfolio formation and should not be used by any students of the course as a resource for plagiarism, an act expressly forbidden by **Coursera** and subject to the exclusion of account of that student who will eventually commit plagiarism in their responses.
 
 # Resources used
 
