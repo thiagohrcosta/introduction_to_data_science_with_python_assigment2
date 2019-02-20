@@ -1,9 +1,11 @@
 
 # Assignment 2 - Pandas Introduction
 
-Todas as questões são ponderadas da mesma forma para a presente tarefa.
+Todas as questões são ponderadas da mesma forma para a presente tarefa. Para responder estas questões utilizou-se o Jupyter
+Notebook integrando Python e Pandas.
 
-All questions are weighted the same in this assignment.
+All questions are weighted the same in this assignment. To answer this questions, was used Jupyter Notebok to integrate Python
+and Pandas.
 
 ## Part 1
 
